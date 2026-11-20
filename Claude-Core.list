@@ -1,0 +1,12 @@
+# Official Anthropic / Claude domain rules
+# Mihomo rule-provider: behavior: classical, format: text
+# Each line is a rule without a proxy group; do NOT add rules: or payload:
+# Updated: 2026-11-20
+
+# Anthropic official required domains
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpcontent.com

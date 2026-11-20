@@ -1,0 +1,60 @@
+# Opt-in maximal collection (broad impact on unrelated applications)
+# Mihomo rule-provider: behavior: classical, format: text
+# Each line is a rule without a proxy group; do NOT add rules: or payload:
+# Updated: 2026-11-20
+
+# Official domains
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+
+# Supplemental and narrow third-party hosts
+DOMAIN-SUFFIX,clau.de
+DOMAIN,api-iam.intercom.io
+DOMAIN,nexus-websocket-a.intercom.io
+DOMAIN,nexus-websocket-b.intercom.io
+DOMAIN,api.intercom.io
+DOMAIN,api-ping.intercom.io
+DOMAIN,api-iam.eu.intercom.io
+DOMAIN,api-iam.au.intercom.io
+DOMAIN,nexus-europe-websocket.intercom.io
+DOMAIN,nexus-australia-websocket.intercom.io
+DOMAIN,js.intercomcdn.com
+DOMAIN,downloads.intercomcdn.com
+DOMAIN,uploads.intercomusercontent.com
+DOMAIN,r.stripe.com
+DOMAIN,js.stripe.com
+DOMAIN,m.stripe.network
+DOMAIN,b.stripecdn.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN,o1158394.ingest.us.sentry.io
+DOMAIN,api3.siftscience.com
+DOMAIN,newassets.hcaptcha.com
+
+# Shared services; explicit opt-in only
+DOMAIN,fcmtoken.googleapis.com
+DOMAIN,storage.googleapis.com
+DOMAIN,registry.npmjs.org
+DOMAIN,github.com
+DOMAIN,raw.githubusercontent.com
+DOMAIN,formulae.brew.sh
+DOMAIN,fonts.googleapis.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,cdnjs.cloudflare.com
+DOMAIN,cdn.jsdelivr.net
+DOMAIN,cdn.tailwindcss.com
+DOMAIN,code.jquery.com
+DOMAIN,unpkg.com
+DOMAIN,accounts.google.com
+DOMAIN,pay.google.com
+DOMAIN,maps.googleapis.com
+DOMAIN,maps.gstatic.com
+
+# Official INBOUND target CIDRs
+IP-CIDR,160.79.104.0/23
+IP-CIDR,153.61.224.0/22
+IP-CIDR6,2607:6bc0::/48

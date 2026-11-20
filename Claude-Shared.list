@@ -1,0 +1,23 @@
+# Shared third-party dependencies (opt-in, may affect other apps)
+# Mihomo rule-provider: behavior: classical, format: text
+# Each line is a rule without a proxy group; do NOT add rules: or payload:
+# Updated: 2026-11-20
+
+# Only add if you explicitly want unrelated traffic via the Claude exit
+DOMAIN,fcmtoken.googleapis.com
+DOMAIN,storage.googleapis.com
+DOMAIN,registry.npmjs.org
+DOMAIN,github.com
+DOMAIN,raw.githubusercontent.com
+DOMAIN,formulae.brew.sh
+DOMAIN,fonts.googleapis.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,cdnjs.cloudflare.com
+DOMAIN,cdn.jsdelivr.net
+DOMAIN,cdn.tailwindcss.com
+DOMAIN,code.jquery.com
+DOMAIN,unpkg.com
+DOMAIN,accounts.google.com
+DOMAIN,pay.google.com
+DOMAIN,maps.googleapis.com
+DOMAIN,maps.gstatic.com

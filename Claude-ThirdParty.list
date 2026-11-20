@@ -1,0 +1,38 @@
+# Claude-related precise third-party endpoints
+# Mihomo rule-provider: behavior: classical, format: text
+# Each line is a rule without a proxy group; do NOT add rules: or payload:
+# Updated: 2026-11-20
+
+# Community- or CSP-observed extra domain (not an official network requirement)
+DOMAIN-SUFFIX,clau.de
+
+# Intercom helpdesk / chat
+DOMAIN,api-iam.intercom.io
+DOMAIN,nexus-websocket-a.intercom.io
+DOMAIN,nexus-websocket-b.intercom.io
+DOMAIN,api.intercom.io
+DOMAIN,api-ping.intercom.io
+DOMAIN,api-iam.eu.intercom.io
+DOMAIN,api-iam.au.intercom.io
+DOMAIN,nexus-europe-websocket.intercom.io
+DOMAIN,nexus-australia-websocket.intercom.io
+DOMAIN,js.intercomcdn.com
+DOMAIN,downloads.intercomcdn.com
+DOMAIN,uploads.intercomusercontent.com
+
+# Stripe billing / embedded payment
+DOMAIN,r.stripe.com
+DOMAIN,js.stripe.com
+DOMAIN,m.stripe.network
+DOMAIN,b.stripecdn.com
+
+# Datadog optional operational telemetry (Anthropic documented)
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
+
+# Sentry and Sift observed in client investigations
+DOMAIN,o1158394.ingest.us.sentry.io
+DOMAIN,api3.siftscience.com
+
+# hCaptcha conditional embedded asset
+DOMAIN,newassets.hcaptcha.com

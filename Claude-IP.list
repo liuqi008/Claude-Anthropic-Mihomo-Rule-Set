@@ -1,0 +1,6 @@
+# Official Anthropic inbound CIDRs (target/destination only)
+# Mihomo: behavior: ipcidr, format: text
+# Note: NOT Anthropic outbound source IPs
+160.79.104.0/23
+153.61.224.0/22
+2607:6bc0::/48
